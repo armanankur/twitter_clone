@@ -1,0 +1,31 @@
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info span{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.info p{
+    color: #fff;
+}
+.button{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .info{
+        display: none;
+        width: 0;
+    }
+    .button{
+        justify-content: center;
+    }
+}

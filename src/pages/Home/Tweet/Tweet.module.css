@@ -1,0 +1,80 @@
+.tweet {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  border-right: 1px solid var(--twitter-background);
+  min-width: fit-content;
+  /* overflow-y: scroll; */
+  border: none;
+}
+
+.tweet_navabar_container{
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.6rem;
+  font-weight: 200;
+  align-items: center;
+  margin: 0.5rem;
+  text-align: center;
+}
+.foryou {
+  width: 50%;
+  height: 3rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.foryou > h2:hover{
+ background-color: rgb(243, 238, 238);
+ border-bottom: 2px solid var(--twitter-color);
+ color: rgb(93, 91, 91);
+}
+.following >h2:hover{
+ background-color: rgb(243, 238, 238);
+ border-bottom: 2px solid var(--twitter-color);
+ color: rgb(93, 91, 91);
+}
+
+
+.following{
+  cursor: pointer;
+  width: 50%;
+  height: 3rem;
+}
+
+.tweet::-webkit-scrollbar {
+  display: none;
+}
+
+.tweet_header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  border: 0.1px solid rgb(236, 223, 223);
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.tweet_header > h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .tweet_header{
+    width: 77%;
+  }
+}

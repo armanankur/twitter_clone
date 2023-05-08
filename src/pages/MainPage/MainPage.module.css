@@ -1,0 +1,49 @@
+
+.home_design{
+    display: flex;
+
+}
+.sidebar{
+    width: 20vw;
+    position: relative;
+    left: 5vw;
+}
+.sidebar2{
+  width: 20vw;
+  position: relative;
+  left: 5vw;
+}
+.tweet{
+    width: 40vw;
+    position: relative;
+    left: 5vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar {   
+      display: none;
+      width: 0;
+    }
+    .sidebar2 {   
+        display: none;
+        width: 0;
+      }
+    .home_design{
+        margin: 0;
+    }
+    .home_design::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .sidebar2 {   
+        display: none;
+        width: 0;
+      }
+    .home_design{
+        margin-left: 5vh;
+    }
+    .home_design::-webkit-scrollbar {
+      display: none;
+    }
+  }

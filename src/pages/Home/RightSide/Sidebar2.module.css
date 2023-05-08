@@ -1,0 +1,188 @@
+
+.main_Div{
+  /* border: red 2px solid; */
+  height: 100vh;
+  width: 20vw;
+  padding:  0 1rem;
+  /* width: 100%; */
+  /* padding-right: 3rem; */
+  /* */
+
+}
+.rightSroll{
+  /* border: red 2px solid; */
+  height: 95vh;
+  overflow: hidden;
+  /* overflow-y: scroll; */
+  position: fixed; 
+
+}
+.rightSroll::-webkit-scrollbar{
+  display: none;
+}
+.fixe{
+  /* border: red 2px solid;  */
+  margin-top: -1rem;
+  padding: 10px;
+  position: sticky;
+  z-index: 99;
+  top: 0;
+  background-color: white;
+  /* position: fixed;  */
+}
+
+.search_bar{
+  border-radius: 30px;
+  height: 7vh;
+  background-color: #eff1f4;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search_bar input{
+  height: 5vh;
+  /* width: 18vw; */
+  border: none;
+  background-color: #eff1f4;
+  
+}
+.search_bar input:focus {
+  border: none;
+  outline: none;
+  
+}
+.happen{
+  /* border: red 2px solid; */
+  border-radius: 10px;
+  margin-top: 1rem;
+  height: 44vh;
+  /* padding: 0 1rem; */
+  background-color: #eff1f4;
+}
+.follow{
+  /* border: red 2px solid; */
+  border-radius: 10px;
+  margin-top: 1rem;
+  height: 50vh;
+  /* padding: 0 1rem; */
+  background-color:#eff1f4;
+}
+.head{
+  /* border: red 2px solid; */
+  cursor: pointer;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head:hover{
+  background-color: #dfe1e3;
+  border-radius: 10px 10px 0 0;
+}
+
+.mapBox{
+  /* border: red 2px solid; */
+  margin: 0.5rem 0;
+  padding: 0 10px;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.mapBox:hover{
+  background-color: #dfe1e3;
+}
+.title{
+  font-size: smaller;
+  font-weight: 500;
+  display: flex;
+}
+.name{
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tweets{
+  font-size: smaller;
+  font-weight: 400;
+}
+.more{
+  /* border: red 2px solid; */
+  margin-right: 10px;
+}
+.showmore{
+  /* border: red 2px solid;  */
+  border-radius: 0 0px 10px 10px;
+  height: 1.6rem;
+  cursor: pointer;
+  margin-top: 0;
+  padding:  4px ;
+}
+.showmore:hover{
+  background-color: #dfe1e3;
+}
+
+/* css for who to follow */
+
+.toFollow{
+  cursor: pointer;
+  padding:  10px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+
+}  
+.toFollow:hover{
+  background-color: #dfe1e3;
+  border-radius: 10px 10px 0 0;
+} 
+.toFollowBox{
+  display: flex;
+cursor: pointer;
+  gap: 6px;
+  align-items: center;
+  /* margin: 10px 0; */
+  height: 8vh;
+  padding: 0 10px;
+  /* border: red 2px solid; */
+ 
+}
+.toFollowBox:hover{
+  background-color: #dfe1e3;
+}
+.followName{
+  /* border: red 2px solid; */
+  /* margin-left: -10px; */
+  width: 7vw;
+}
+.followMore{
+  /* border: red 2px solid; */
+  cursor: pointer;
+  height: 5.4vh;
+  padding: 5px;
+  border-radius: 0 0px 10px 10px;
+  /* position: sticky; */
+  top: 40px;
+ 
+}
+.followMore:hover{
+  background-color: #dfe1e3;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+
+}
+
+@media only screen and (max-width: 1024px) {
+ 
+}
+@media only screen and (max-width: 913px) {
+
+  
+}
+
+@media only screen and (min-width: 1440px) {
+
+}

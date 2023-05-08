@@ -1,0 +1,78 @@
+.tweetbox {
+  padding-bottom: 0.7rem;
+  border-bottom: 0.1px solid rgb(236, 223, 223);
+  padding-right: 0.5rem;
+
+}
+
+.tweetbox > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweetbox_input {
+  display: flex;
+  padding: 0.5rem;
+  width: 74%;
+
+}
+
+.tweetbox_input > input {
+  flex: 1;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+}
+
+.tweet_button {
+  background-color: var(--twitter-color) !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 40px !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  height: 2.3rem !important;
+  width: 5.5rem !important;
+  margin-left: auto !important;
+  margin-bottom: 1px !important;
+}
+
+.tweet_icons {
+  color: var(--twitter-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 74%;
+  padding-right: 1rem;
+}
+
+.postContainer{
+  margin-top: 1rem;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.postUserDetail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10rem;
+}
+.postUserPost p{
+ font-size: medium;
+ margin-left: 5rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+.tweetbox{
+  width: 77%;
+}
+}
